@@ -1,0 +1,17 @@
+body { background-color: rgb(44, 92, 44);}
+
+
+h2 { font-size: 30px;
+text-align: center;
+color: black;
+}
+
+div { 
+    align-items: center;
+    margin-left: 40%;
+    padding: 20px;
+}
+
+button {
+    margin-left: 45%;
+}
