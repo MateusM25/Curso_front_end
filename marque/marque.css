@@ -1,0 +1,131 @@
+
+
+
+html {font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: 'Tiro Telugu', serif;
+font-size: 62,5%;
+width: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+background-color: #000000;
+
+}
+
+body{ background-color: #000000;}
+
+.sectcarosel{
+    background-image: linear-gradient(to bottom , white, black);
+}
+.sectcorpo{
+    background-color: #000000;
+}
+
+header {background-color: rgb(255, 255, 255);
+margin-inline:auto;
+
+font-size: 0.8rem;
+    position:relative;
+    top:0;
+    height: 80px;
+    width: 100vw;
+    z-index: 100;
+}
+
+h1{font-size: 1.5rem;
+color: rgb(0, 215, 253);}
+
+
+.ini1{font-size: 1rem;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    padding-inline-end: 20px;
+ 
+    color: #000000;}
+
+    .ipt{margin-right: 15%;
+        width: 400px;
+        float: right;
+    }
+
+  
+  h2{ margin-top: 5%;
+color: #0dcaf0;
+text-align: center;
+
+
+}
+
+h3{ margin-top: 5%;
+    color: #0dcaf0;
+    text-align: center;
+    float: right;
+    margin-right:23% ;
+}
+.p1 {text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+img{ margin-left: 25%;
+    margin-top: 3%;
+
+    
+}
+
+.pImg{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.botao {margin-left: 60%;}
+
+  h5 {color:#0dcaf0;}
+
+ 
+  .imgbaner{max-width: 100% auto;
+margin-left: 10%;
+height: 600px;
+background-repeat: no-repeat;
+margin-top: 10%;}
+
+.pbaner{text-align:left;
+    margin-left: 45%;
+    float: right auto;
+    padding-top: 30px;
+    margin-right: 5%;
+    color: white;
+}
+
+.imgbaner2{
+    width: 100% auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    
+}
+
+h4 {color:#0dcaf0;
+    margin-left:60% ;
+    float: right auto;
+}
+
+.pbaner2{text-align:left;
+    margin-left:60% ;
+    float: right auto;
+    padding-top: 30px;
+    margin-right: 5%;
+    color: white;
+
+}
+
+footer {padding:100px auto;
+text-align: center;
+max-width: 300px;
+margin-left: 40%;
+color: whitesmoke;
+padding-top: 10%;
+}
