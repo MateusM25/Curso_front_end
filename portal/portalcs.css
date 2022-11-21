@@ -1,0 +1,88 @@
+html {background-image: linear-gradient(to bottom, black , white);
+ font-family: 'Times New Roman', Times, serif;  
+}
+
+.topo { background-color: rgb(10, 10, 10) ;
+margin-top: -20px;
+
+}
+
+h1 { color: red;}
+.titulomq {color:rgb(255, 0, 0);}
+.textguia {color: red;}
+.inicio { color: white;
+font-size: 20px;
+text-align: center;
+padding: 20px;}
+
+
+
+.guia1 { margin-left: 50%;
+margin-top:-px ;
+text-decoration: none;}
+
+.guia2 { margin-left: 60%;
+margin-top: -20px;}
+
+.guia3 {margin-left: 68%;
+margin-top: -19px;
+padding-bottom: 20px;
+
+
+}
+
+.guia4 {margin-left: 80%;
+margin-top: -39px;
+padding-bottom: 30px;}
+
+a { text-decoration: none;
+}
+
+.creation-data { font-size: 10px;
+color:black ;}
+
+.textos { text-align: center;
+margin-right: 60%;
+}
+
+.divimg {margin-left: 70%;
+ margin-top: -31.5%;}
+
+.h32 {margin-left: 70%;
+margin-top: 1%;
+}
+
+ .textos2 {text-align: center;
+margin-left: 60%;
+}
+
+
+.btn1 {margin-left: 15%;}
+
+.btn2 { margin-left: 80%;
+}
+
+.creation-data2 { margin-left: 70%; 
+    font-size: 10px;
+    color:black ;
+}
+
+
+
+.game{ margin-top: 50px;
+}
+.h33 {margin-left: 70%;
+    }
+.musica {margin-top: 50px;}
+.Tecnologia{margin-top: 50px;}
+
+    .divimg6 {margin-left: 70%;
+        margin-top: -30%;}
+
+        .divimg8 {margin-left: 70%;
+            margin-top: -30%;}
+
+
+
+            footer {margin-left: 45%;
+            padding-top: 10%;}
