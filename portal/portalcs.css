@@ -1,16 +1,26 @@
-html {background-image: linear-gradient(to bottom, black , white);
- font-family: 'Times New Roman', Times, serif;  
+html { background-color: rgb(255, 255, 255);
+ font-family: 'Times New Roman', Times, serif; 
+padding: 0%;
+margin: 0%;
+
+
+}
+/* Cabeçalho e inicio*/
+.topo { background-image:linear-gradient(to bottom, rgb(0, 255, 242), white ) ;
+margin-top: -20px ;
+border-color: black;
+margin:-8px;
+margin-top: -22px;  
 }
 
-.topo { background-color: rgb(10, 10, 10) ;
-margin-top: -20px;
 
-}
 
-h1 { color: red;}
-.titulomq {color:rgb(255, 0, 0);}
-.textguia {color: red;}
-.inicio { color: white;
+h1 {
+    padding: 10px;
+     color: rgb(8, 0, 114)}
+.titulomq {color: rgb(8, 0, 114)}
+.textguia {color: rgb(8, 0, 114);}
+.inicio { color: rgb(3, 3, 3);
 font-size: 20px;
 text-align: center;
 padding: 20px;}
@@ -37,6 +47,16 @@ padding-bottom: 30px;}
 
 a { text-decoration: none;
 }
+         /*SPORTES  */
+
+
+   .sports { margin: -8px;
+    background-image: linear-gradient(to bottom, white, rgb(0, 100, 50));
+padding: 20px;
+}  
+h2 {text-align: center;
+padding: 35px;
+font-size: 1.5rem;}
 
 .creation-data { font-size: 10px;
 color:black ;}
@@ -46,9 +66,10 @@ margin-right: 60%;
 }
 
 .divimg {margin-left: 70%;
- margin-top: -31.5%;}
+ margin-top: -32.5%;}
 
 .h32 {margin-left: 70%;
+    
 margin-top: 1%;
 }
 
@@ -57,32 +78,131 @@ margin-left: 60%;
 }
 
 
-.btn1 {margin-left: 15%;}
+.btn1 {margin-left: 15%;
+}
 
 .btn2 { margin-left: 80%;
-}
+ background-color: white }
 
 .creation-data2 { margin-left: 70%; 
     font-size: 10px;
-    color:black ;
+    color:rgb(0, 0, 0) ;
 }
 
 
 
-.game{ margin-top: 50px;
-}
-.h33 {margin-left: 70%;
+.game{ padding-top: 5px;
+     padding-bottom:20px ;
+     padding-left: 20px;
+     padding-right: 20px;
+ background-image: linear-gradient(to bottom, rgb(0,100,50), rgb(0, 140, 255) );
+margin:-8px ;}
+
+ .h33 {margin-left: 70%;
     }
-.musica {margin-top: 50px;}
-.Tecnologia{margin-top: 50px;}
+   .Tecnologia{margin: -8px;
+    padding: 100px;
+    background-image: linear-gradient(to bottom, rgb(0,140,255), rgb(84, 97, 90));}
 
+
+    .musica {margin: -8px;
+        margin-top: px;
+    background-image: linear-gradient(to bottom, rgb(84, 97, 90), rgb(255, 255, 255)  );
+padding: 60px;}
+
+
+ 
+    .divimg4 {margin-left: 70%;
+    margin-top: -36.5%;}
     .divimg6 {margin-left: 70%;
         margin-top: -30%;}
 
         .divimg8 {margin-left: 70%;
-            margin-top: -30%;}
+            margin-top: -34.5%;}
 
 
 
             footer {margin-left: 45%;
             padding-top: 10%;}
+
+@media (max-width: 426px ) {
+.topo { padding: 10px;}
+.guia1 {margin-left: -10px;
+font-size: 12px;
+}
+.guia2 {margin-left: 80px;
+    margin-top: -15px;
+font-size: 12px;}
+.guia3 {margin-left: 160px;
+font-size: 12px;
+margin-top: -15px;
+}
+.guia4{font-size: 12px;
+margin-top: -10%;}
+
+
+.divimg {margin-left: 1%;
+margin-top: 10%;}
+
+.divimg6 {margin-left: 1%;
+margin-top: 25%;}
+
+.divimg3 {margin-left: -40%;}
+.divimg4 {padding-top: 30px;
+margin-left: -85px;}
+.divimg8 {padding-top: 40%; 
+    margin-left: -1%;}
+
+.textos {margin-right: 0%;
+text-align: center;}
+.textos2 { margin-left: 0%;
+text-align: center;
+}
+
+
+.h32 {margin-left: 0%;}
+.h33{margin-left: 0%;}
+.creation-data2 {margin-left: 3%;}
+.btn1{margin-left: 40%;}
+.btn2{margin-left: 40%;}
+
+
+footer {margin-left: 20%;}
+
+}
+@media (min-width:1400px  ) {
+
+html { background-color: rgb(255, 255, 255);}
+    .divimg{
+    padding-top: 165px; }
+
+
+    .textos2 {margin-top: 1%;}
+
+
+
+.placa {margin-top: 30%;}
+
+
+.game { padding-top: 5%;
+ }
+.Tecnologia{ padding-top: 5%;
+}
+.placa {margin-left: -9%;}
+.divimg6 { padding-top: 7%;}
+.musica{ padding-top: 5%;}
+.divimg8 { padding-top: 9%;
+margin-top: -32%;}
+.divimg4{margin-left: 70%;
+margin-top: -23%;}
+
+}
+
+
+
+
+
+
+
+
+
