@@ -32,7 +32,6 @@ font-size: 0.8rem;
     width: 100vw;
     z-index: 100;
 }
-
 h1{font-size: 1.5rem;
 color: rgb(0, 215, 253);}
 
@@ -50,13 +49,15 @@ color: rgb(0, 215, 253);}
         float: right;
     }
 
-  
-  h2{ margin-top: 5%;
-color: #0dcaf0;
-text-align: center;
+      
 
 
-}
+      h2{ margin-top: 5%;
+        color: #0dcaf0;
+        text-align: center;
+
+
+                }   
 
 h3{ margin-top: 5%;
     color: #0dcaf0;
