@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div#area {
+     background-color: aqua;
+     color: WHITE;
+     width: 200px;
+     height: 200px;
+     line-height: 200px;
+     text-align: center;
+
+    }
+</style>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="saiu()" > <!-- da pra usar essa sintaxe mas para não deixar o html muito puluido da pra usar os ouvintes a.addEventListerner('click', clicar  )-->
+        <P>Interaja</P>
+        </div> 
+    <script>
+    
+    var a = window.document.getElementById('area')
+       a.addEventListener('click', clicar)
+       a.addEventListener('mouseenter', entrar)
+       a.addEventListener('mouseout', saiu )
+    function clicar() {
+            
+            a.innerText = "bucetudo"
+            a.style.background = "black"
+               }
+        function entrar()     {
+            a.innerText = 'entrou'
+        }  
+        function saiu() {
+            a.innerText = "saiu"
+            a.style.background = "red"
+        }
+                 
+
+    
+    </script>
+</body>
+</html>
