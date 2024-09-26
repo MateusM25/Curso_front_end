@@ -236,7 +236,7 @@ else:
  """
  
  # exercicio 5.22
-
+""
 operacao = input("Digite a Operção que deseja obter a tabuada, Adição , Multiplicação , Subtração , Divisão  :")
 tabuada = 1
 
@@ -246,7 +246,7 @@ while operacao == "Adição" :
         while numero <= 10 :
             print(f"{tabuada} + {numero} = {tabuada + numero}") 
         numero + 1
-        tabuada =     
+        tabuada =  1   
     
 if operacao == "Multiplicacao" :
     print ("Multiplicação")
@@ -255,4 +255,6 @@ elif operacao == "subtração" :
 elif operacao == "sair":
     print("saiu")
     
+    """
+     
      
