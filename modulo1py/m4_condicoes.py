@@ -163,24 +163,24 @@ c_2 = 0.60
 i_1 = 0.55
 i_2 = 0.60
 
-if consumo < 500 and instalacao == "R" : 
+if consumo < 500 and instalacao == "R" or "r" : 
     calc_1 = consumo * 0.40
     print(f" Sua conta deu R$ {calc_1:5.3f}")
-elif consumo >=  500 and instalacao == "R" : 
+elif consumo >=  500 and instalacao == "R" or "r" : 
     calc_2 = consumo * 0.65 
     print(f" Sua conta deu R$ {calc_2:5.3f}")
 
-if consumo < 1000 and instalacao == "C" :
+if consumo < 1000 and instalacao == "C" or "r":
     calc_3 = consumo * c_1
     print(f" Sua conta deu R$ {calc_3:5.3f}")
-elif consumo >= 1000 and instalacao == "C" :
+elif consumo >= 1000 and instalacao == "C" or "c" :
     calc_4 = consumo * c_2
     print(f" Sua conta deu R$ {calc_4:5.3f}")
 
-if consumo < 5000 and instalacao == "I" : 
+if consumo < 5000 and instalacao == "I" or "i": 
     calc_5 = consumo * i_1
     print(f" Sua conta deu R$ {calc_5:5.3f}") 
-elif consumo >= 5000 and instalacao == "I" :
+elif consumo >= 5000 and instalacao == "I" or "r" :
     calc_6 = consumo * i_2
     print(f" Sua conta deu R$ {calc_6:5.3f}")  
 
