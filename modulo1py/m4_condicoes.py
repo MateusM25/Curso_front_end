@@ -183,6 +183,7 @@ if consumo < 5000 and instalacao == "I" or "i":
 elif consumo >= 5000 and instalacao == "I" or "r" :
     calc_6 = consumo * i_2
     print(f" Sua conta deu R$ {calc_6:5.3f}")  
+    
 
 
 
